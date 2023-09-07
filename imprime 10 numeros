@@ -1,0 +1,26 @@
+//programa que imprime 10 numeros 
+#include <stdio.h>
+
+int main (){
+	printf ("\t\t\t\t\t\t<<Programa que imprime 10 numeros>>\n ");
+	int numero ;
+	
+	printf("Ingresa un numero:\n");
+	scanf ("%d",&numero);
+	
+	printf("%d\n", numero+1);
+	printf("%d\n", numero+2);
+	printf("%d\n", numero+3);
+	printf("%d\n", numero+4);
+	printf("%d\n", numero+5);
+	printf("%d\n", numero+6);
+	printf("%d\n", numero+7);
+	printf("%d\n", numero+8);
+	printf("%d\n", numero+9);
+	printf("%d\n", numero+10);
+
+	
+
+
+	return 0;
+}
