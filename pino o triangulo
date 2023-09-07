@@ -1,4 +1,5 @@
 // pinito //
+// no me dio tiempo cambiarlo ='(//
 #include <stdio.h>
 //A=altura E= espacio C= cantidad de filas //
 int main (){
