@@ -1,0 +1,22 @@
+//programa que imprime impares 
+#include <stdio.h>
+
+int main(){
+ int d=0; 
+ int c;
+ int b;
+ printf ("numeros impares del: ");
+ scanf("%d",& b);
+ 
+ while (d%2 ==1 || d<b )
+ {
+ printf("%d\n",d+1);
+ d=d+2;
+ 
+ }
+ 
+ 
+ 
+ 
+ return 0; 
+}
