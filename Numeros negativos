@@ -1,0 +1,19 @@
+//programa que identifica numeros negativos 
+#include <stdio.h>
+
+int main (){
+	printf("\t\t\t\t\t\t<< NUMEROS NEGATIVOS >>\n\n");
+	printf("Agrega numeros negativos:\n");
+	int a;  //numeros negativos 
+	int b;  //numeros positivos
+	scanf("%d",&a);
+
+	if (a<0)
+	printf (" Es un numero negativo ");
+	
+	if(a>0)
+	printf ("No es un numero negativo");
+    
+	
+	return 0;
+}
